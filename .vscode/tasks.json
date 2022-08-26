@@ -4,7 +4,7 @@
         {
             "label": "Transpile",
             "type": "shell",
-            "command": "npm run rollup && py transpile.py",
+            "command": "npm run rollup && python transpile.py",
             "group": "test",
             "presentation": {
                 "reveal": "always"

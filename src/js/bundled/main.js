@@ -13,7 +13,7 @@ vex.COAST;
 vex.Callable;
 vex.Code;
 vex.Color;
-vex.Competition;
+let Competition = vex.Competition;
 let Controller = vex.Controller;
 vex.ControllerType;
 vex.CurrentUnits;
@@ -31,7 +31,7 @@ vex.Event;
 vex.EventMask;
 vex.FORWARD;
 vex.FontType;
-let GearSetting = vex.GearSetting;
+vex.GearSetting;
 vex.GestureType;
 vex.Gps;
 vex.Gyro;
@@ -45,10 +45,10 @@ vex.Light;
 vex.Limit;
 vex.Line;
 vex.MM;
-vex.MSEC;
+let MSEC = vex.MSEC;
 vex.MV;
 vex.MessageLink;
-let Motor = vex.Motor;
+vex.Motor;
 vex.Motor29;
 vex.MotorGroup;
 vex.MotorVictor;
@@ -61,7 +61,7 @@ vex.PITCH;
 vex.PRIMARY;
 vex.PercentUnits;
 vex.Pneumatics;
-let Ports = vex.Ports;
+vex.Ports;
 vex.Potentiometer;
 vex.PotentiometerV2;
 vex.PowerUnits;
@@ -121,17 +121,16 @@ vex.sys;
 vex.time;
 vex.vexEnum;
 vex.vexnumber;
-vex.wait;
+let wait = vex.wait;
 
 brain = Brain();
 controller = Controller();
-motor_1 = Motor(Ports.PORT1, GearSetting.RATIO_18_1, False);
 
 function autonomous() {}
 
 function user_control() {
-  vex.wait(20, MSEC);
+  wait(20, MSEC);
 } // create competition instance
 
 
-comp = vex.Competition(user_control, autonomous);
+comp = Competition(user_control, autonomous);
