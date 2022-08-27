@@ -4,7 +4,7 @@
         {
             "label": "Transpile",
             "type": "shell",
-            "command": "npm run rollup && python transpile.py",
+            "command": "coffee --compile --output src/Compiled_JS src/CoffeeScript && npm run rollup && python transpile.py",
             "group": "test",
             "presentation": {
                 "reveal": "always"

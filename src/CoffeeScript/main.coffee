@@ -4,18 +4,15 @@ brain = Brain();
 
 controller = Controller();
 
-function pre_autonomous() {
+pre_autonomous = () -> pass
 
-}
+autonomous = () -> pass
 
-function autonomous() {
-    
-}
 
-function user_control() {
+user_control = () ->
     wait(20, MSEC);
-}
 
-// create competition instance
+
+# create competition instance
 comp = Competition(user_control, autonomous);
 pre_autonomous();
