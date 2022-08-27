@@ -1,6 +1,6 @@
 # NOTE: CURRENTLY UNTESTED
 
-# Vexcode Javascript Template
+# Vexcode Coffescript Template
 This template allows you to program the V5 robot with Javascript by transpiling to Python
 
 ## How to use:
@@ -10,7 +10,7 @@ This template allows you to program the V5 robot with Javascript by transpiling 
 ```
 npm install
 ```
-3. Write your code inside of `src/js`
+3. Write your code inside of `src/CoffeeScript`
 
 4. Transpile your code to python by running the `Transpile` task
 
