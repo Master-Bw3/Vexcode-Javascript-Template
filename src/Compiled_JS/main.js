@@ -7,7 +7,7 @@ import {
   Controller,
   MSEC,
   wait
-} from "./api/vex.js";
+} from "./api/vex";
 
 brain = Brain();
 

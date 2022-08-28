@@ -1,4 +1,5 @@
 node_modules
 src/main.py
-src/js/bundled/main.js
+src/Compiled_JS/bundled/main.js
+src/Compiled_JS/main.js
 package-lock.json
