@@ -1,3 +1,4 @@
+//fake api
 let Accelerometer = vex.Accelerometer;
 let AnalogIn = vex.AnalogIn;
 let AnalogPercentUnits = vex.AnalogPercentUnits;
@@ -47,7 +48,7 @@ let MM = vex.MM;
 let MSEC = vex.MSEC;
 let MV = vex.MV;
 let MessageLink = vex.MessageLink;
-let Motor = vex.Motor;
+let Motor = vex.Motor
 let Motor29 = vex.Motor29;
 let MotorGroup = vex.MotorGroup;
 let MotorVictor = vex.MotorVictor;
